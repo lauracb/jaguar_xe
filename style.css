@@ -1,34 +1,39 @@
-body{
-	background-image: url('https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-    background-attachment: fixed;
+* {
+ box-sizing: border-box;
+}
+
+body {
+ background-image: url('https://s3.amazonaws.com/makeitreal/cars/jaguar-xe.jpg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
 }
 
 .container {
-	font-family: 'Roboto', sans-serif;
-	background: rgba(0,0,0,0.6);
-	color: white;
-	max-width: 600px;
-    border-radius: 5px;
-    margin-top: 80px;
-    margin-left: 70px;
-    padding: 10px 30px;
+ font-family: 'Roboto', sans-serif;
+ background: rgba(0,0,0,0.6);
+ color: white;
+ max-width: 600px;
+ border-radius: 5px;
+ margin-top: 80px;
+ margin-left: 70px;
+ padding: 20px 30px;
 }
 
-input {
-	background: #DB3030;
-	color: #ffffff;
-	padding: 10px 30px;
-	border: 1px solid #DB3030;
-	font-weight: bold;
+a {
+ background: #DB3030;
+ color: #ffffff;
+ padding: 10px 30px;
+ text-decoration: none;
+ font-weight: bold;
 }
+
 
 @media (max-width: 600px) {
-	.container {
-		width: auto;
-		height: auto;
-		margin: 10px;
-	}
+ .container {
+  width: auto;
+  height: auto;
+  margin: 15px 30px;
+ }
 }
